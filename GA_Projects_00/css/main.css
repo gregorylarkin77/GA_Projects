@@ -2,16 +2,28 @@ h1 {
 	font-size: 40px;
 	font-weight: bold;
 	font-family: Helvetica;
+	color: white;
+}
+
+body {
+	text-align: center;
+	background-image: url("../img/HS_PIC.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 p {
   font-size : 20px;
   font-style : helvetica;
+  font-family: Arial;
+  color: red;
+  font-weight: bold;
 }
 .main-paragraphs {
   font-size: 14px;
   color: black;
   font-weight: bold;
+  font-family: ;
 }
 
 #special-para {
