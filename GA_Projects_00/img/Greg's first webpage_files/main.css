@@ -1,0 +1,60 @@
+h1 {
+	font-size: 80px;
+	font-weight: normal;
+	font-family: 'Mostra Nuova';
+	color: white;
+  border:0px;
+  padding: 0px;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: normal;
+  font-family: 'Mostra Nuova';
+  color: white;
+  border:0px
+}
+
+body {
+	text-align: center;
+	background-image: url("../img/art_deco_NYC.png");
+  background-size: cover;
+  margin:20px;
+  padding:30px;
+}
+
+
+a {
+  font-size: 20;
+  color: white;
+  font-family: 'Mostra Nuova';
+  padding: 10px;
+  border: 10px;
+  margin:20px;
+}
+
+input {
+  border: 0;
+  padding: 10px;
+  font-color: white;
+}
+p {
+  font-size : 20px;
+  font-family: 'Mostra Nuova';
+  color: white;
+  font-weight: bold;
+}
+.main-paragraphs {
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  font-family: ;
+}
+
+#special-para {
+  color: blue; 
+}
+
+.main-right {
+  text-align: center;
+}
