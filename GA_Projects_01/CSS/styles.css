@@ -9,6 +9,10 @@ body {
 	padding-left: 50px;
 }
 
+p{
+	color: gray;
+}
+
 header {
 	margin-right: 20px;
 	width:900;
@@ -87,6 +91,7 @@ footer {
 
 .headerstyle{
 	margin-right: 20px;
+	width: 900;
 
 }
 
