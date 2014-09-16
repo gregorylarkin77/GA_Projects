@@ -12,6 +12,7 @@
 }
 
 .lightcontainer {
+  /*Consider adding padding top here to push down the circles inside the traffic light*/
 	height: 700px;
 	width: 300px;
 	margin-left: auto;
