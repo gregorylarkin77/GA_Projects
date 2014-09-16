@@ -1,6 +1,23 @@
+body{
+	background-image: url("../img/youngliars.jpg");
+	background-color:white;
+	background-size: cover;
+	height: 100%;
+	background-repeat: no-repeat;
+}
+
+h1{
+	color: blue;
+	font-family: "OPTIYork";
+	font-size: 65px;
+	margin-left: 40px;
+}
+.maincontainer {
+
+}
 .light {
-  height: 200px;
-  width: 200px;
+  height: 80px;
+  width: 80px;
   background: black;
   margin-top: 30px;
   margin-left: auto;
@@ -12,27 +29,74 @@
 }
 
 .lightcontainer {
-	height: 700px;
-	width: 300px;
-	margin-left: auto;
-	margin-right: auto;
+	height: 320px;
+	width: 100px;
+	margin-right: 300px;
 	background-color: orange;
+	margin-top: 20%;
+	float: right;
+	padding-bottom: 30px;
+}
+
+.buttoncontainer{
+	float: right;
+	height:320px;
+	width: 160px;
+	background-color: none;
+	margin-right: 100px;
+	margin-top: 20%;
 }
 
 .go:hover {
   background: green;
-  height: 160px;
-  width: 160px;
+  
 }
 
 .stop:hover {
   background: red;
-  height: 160px;
-  width: 160px;
 }
 
 .caution:hover{
   background: yellow;
-  height: 160px;
-  width: 160px;
+ }
+
+.gobutton{
+	height: 50px;
+	width: 160px;
+	background-color: none;
+	border-color:blue;
+	margin-left: 55%;
+	margin-top:40%;
+	font-size: 40px;
+	color: blue;
+	font-family: "OPTIYork";
+	text-align: center;
 }
+
+.stopbutton{
+	height: 50px;
+	width: 160px;
+	background-color: none;
+	border-color:blue;
+	margin-left: 55%;
+	margin-top:40%;
+	font-size: 40px;
+	color: blue;
+	font-family: "OPTIYork";
+	text-align: center;
+}
+
+.cautionbutton{
+	height: 50px;
+	width: 160px;
+	background-color: none;
+	border-color:blue;
+	margin-left: 55%;
+	margin-top:40%;
+	font-size: 40px;
+	color: blue;
+	font-family: "OPTIYork";
+	text-align: center;
+}
+// there is clearly some way to not replicate gobutton, stopbutton, etc... It's just not clicking at the moment.
+
