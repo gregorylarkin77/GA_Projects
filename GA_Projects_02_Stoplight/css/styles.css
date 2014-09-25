@@ -4,31 +4,19 @@ body{
 	background-size: cover;
 	height: 100%;
 	background-repeat: no-repeat;
+	font-family: "OPTIYork";
 }
 
 h1{
 	color: blue;
-	font-family: "OPTIYork";
 	font-size: 65px;
 	margin-left: 40px;
 }
-.maincontainer {
 
-}
-.light {
-  height: 80px;
-  width: 80px;
-  background: black;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50%;
-  transition: background 1s ease 0s; 
-  cursor: pointer;
-  top: 50%;
-}
 
-.lightcontainer {
+
+
+#lightcontainer {
 	height: 320px;
 	width: 100px;
 	margin-right: 300px;
@@ -38,65 +26,44 @@ h1{
 	padding-bottom: 30px;
 }
 
-.buttoncontainer{
+.light {
+	width:90px;
+	height:90px;
+	border-radius:50%;
+	border: 2px solid gray;
+	transition: background-color 1s ease 0s;
+	margin-top: 19px;
+	margin-left: 4px;
+	background-color: rgb(25,25,112);
+}
+
+#buttoncontainer{
 	float: right;
-	height:320px;
+	height:330px;
 	width: 160px;
 	background-color: none;
-	margin-right: 100px;
 	margin-top: 20%;
+	margin-right: 100px;
 }
 
-.go:hover {
-  background: green;
-  
-}
+button:hover {
+  background-color: none;
+  color: rgb(0,255,255);
+  }
 
-.stop:hover {
-  background: red;
-}
-
-.caution:hover{
-  background: yellow;
- }
-
-.gobutton{
-	height: 50px;
-	width: 160px;
-	background-color: none;
-	border-color:blue;
-	margin-left: 55%;
+button{
+	height: 55px;
+	width: 140px;
+	background-color: transparent;
+	border: transparent;
+	margin-left: 75%;
 	margin-top:40%;
-	font-size: 40px;
+	font-size: 50px;
 	color: blue;
 	font-family: "OPTIYork";
 	text-align: center;
+	cursor:pointer;
+	padding-top: 6px;
 }
 
-.stopbutton{
-	height: 50px;
-	width: 160px;
-	background-color: none;
-	border-color:blue;
-	margin-left: 55%;
-	margin-top:40%;
-	font-size: 40px;
-	color: blue;
-	font-family: "OPTIYork";
-	text-align: center;
-}
-
-.cautionbutton{
-	height: 50px;
-	width: 160px;
-	background-color: none;
-	border-color:blue;
-	margin-left: 55%;
-	margin-top:40%;
-	font-size: 40px;
-	color: blue;
-	font-family: "OPTIYork";
-	text-align: center;
-}
-// there is clearly some way to not replicate gobutton, stopbutton, etc... It's just not clicking at the moment.
-
+.

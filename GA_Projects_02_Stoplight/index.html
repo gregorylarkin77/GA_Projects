@@ -4,19 +4,21 @@
 	<meta charset="utf-8">
 	<title>GA_Projects_02_Stoplights</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="js/main.js" type="text/javascript"></script>
 </head>
+
 <body>
 <h1>Animated Young Liars</h1>
 	<div id="maincontainer"></div>
-	<div class="lightcontainer">
-		<div class="go light"></div>
-		<div class="stop light"></div>
-		<div class="caution light"></div>
+	<div id="lightcontainer">
+		<div id="golight" class="light"></div>
+		<div id="stoplight" class="light"></div>
+		<div id="cautionlight" class="light"></div>
 	</div>	
-	<div class="buttoncontainer">
-	 	<div class="gobutton">Go</div>
-	 	<div class="stopbutton">Stop</div>
-	 	<div class="cautionbutton">Caution</div>
+	<div id="buttoncontainer">
+	 	<button id="button-go" onclick="lightGo()">Go</button>
+	 	<button id="button-stop" onclick="lightStop()">Stop</button>
+	 	<button id="button-caution" onclick="lightCaution()">Caution</button>
 	 </div>
 </body>
 </html>
