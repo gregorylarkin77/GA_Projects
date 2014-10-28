@@ -1,0 +1,120 @@
+body{
+	font-family: 'helvetica neue', helvetica, sans-serif;
+	font-size: 12px;
+	padding-top: none;
+	background-image: url("../images/calmstorm.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+h1{
+	font-size: 60px;
+	font-weight: 900;
+	color:lightsteelblue;
+	font-family: arial;
+	font-style: italic;
+	padding-left: 30px;
+}
+
+h2{
+	font-size: 20px;
+	color: lightsteelblue;
+	font-family: arial;
+	padding-left: 30px;
+}
+
+header{
+	background-color: none;
+	background-size: 1424px 170px;
+}
+
+p{
+	margin-left: 10px;
+	font-size: 14px;
+	border-bottom: 1px solid palevioletred;
+	margin right:10px;
+	padding: 10px;
+}
+
+.headpad{
+	padding-left: 30px;
+	background-color: none;
+	color: lightsteelblue;
+	font-family: arial;
+	font-style: italic;
+	border-bottom: none;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.headpad:hover {
+  background-color: none;
+  color: palevioletred;
+  }
+
+.headline-date{
+	font-weight: 5;
+	font-size: 16px;
+	color: cccccc;
+	padding-right: 5px;
+}
+
+.headline{
+	font-size: 18px;
+	font-weight: 900;
+	color: crimson;
+	margin-left: 10px;
+}
+
+.headline:hover{
+	color: darkslateblue;
+}
+
+#ebolanews{
+	float:left;
+	height:400px;
+	width:10px;
+	border-width: 2px;
+	border-color: gray;
+}
+
+
+#headerstyle {
+	width: 100%;
+	margin-right: 20px;
+	font-size: 16px;
+	border-bottom: 2px solid gray; 	
+}
+
+#infocontainer{
+	width:90%;
+	height:500px;
+	background-color: lightsteelblue;
+	opacity:0.7;
+	margin-top: 40px;
+}
+
+#newscontainer{
+	width:40%;
+	float:left;
+	height:400px;
+	border: 1px gray solid;
+	margin-top: 20px;
+	margin-left: 20px;
+	
+}
+
+#line-example{
+	width: 55%;
+	height: 400px;
+	float: right;
+	
+}
+
+#news-source{
+	width: 500px;
+	height: 400px;
+	padding-right: 10px;
+	border: gray;
+
+}
